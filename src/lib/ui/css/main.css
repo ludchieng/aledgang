@@ -1,0 +1,31 @@
+@import url('@fontsource-variable/inter/index.css');
+@import url('./variables.css');
+
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%; /* See https://developer.chrome.com/blog/url-bar-resizing/ */
+}
+
+body,
+input,
+button {
+  font-family: var(--sans-serif);
+  color: var(--text-color);
+}
+
+/* prettier-ignore */
+html, body, div, article, aside, section, main, nav, footer, header, form,
+fieldset, legend, pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt,
+dd, blockquote, figcaption, figure, textarea, table, td, th, tr,
+input[type="email"], input[type="number"], input[type="password"],
+input[type="tel"], input[type="text"], input[type="url"] {
+  box-sizing: border-box;
+}
